@@ -1,3 +1,8 @@
+Pull the repository on local machine
+~~~
+git pull git@github.com:DixitSom/crawler.git
+~~~
+
 Create Virtual envirment for python
 ~~~
 python3 -m venv env
