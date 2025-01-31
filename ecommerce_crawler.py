@@ -169,7 +169,7 @@ def process_domain(domain, max_depth=MAX_DEPTH):
 
         # time.sleep(2)
 
-        processed.union(links_hash)
+        processed = processed.union(links_hash)
         new_product_urls = set()
         new_links = set()
         for result in results:
